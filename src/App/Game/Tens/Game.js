@@ -63,7 +63,7 @@ export default function Game() {
 
   return (
     <main className="game">
-      {tenzies && <Confetti width={1500} height={1000} />}
+      {tenzies && <Confetti width={window.innerWidth} height={window.innerHeight} />}
       <section className="game__dice">{diceElements}</section>
       <button type="button" className="game__dice__roll-btn" onClick={rollDice}>
         {tenzies === true ? "New Game!" : "Roll"}
