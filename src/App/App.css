@@ -1,0 +1,17 @@
+.container {
+  width: 45%;
+  height: 60vh;
+  background-color: var(--outer-black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  width: 94%;
+  height: 54vh;
+  background-color: var(--light-white);
+  padding: 2rem;
+  gap: 1rem;
+  border-radius: .7rem;
+}
